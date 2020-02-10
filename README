@@ -1,1 +1,33 @@
-Python framework including multiple, independent tools
+A simple Python3 framework, including a few tools designed for networking and penetration testing. 
+
+Tools: 
+
+Port scanner: 
+A tool that scans a specified port range on a given IP-adress. Also supports selective port scanning. Currently only supports TCP ports.
+
+Ping sweep: 
+A tool that attempts to ping every possible IP-adress within a range given by the user.
+
+Network multitool: 
+A tool similar to Netcat, that allows a user to set up a listener on a specified port, or connect to a specified port. The user is also able to communicate via this tool, execute files and obtain shell access.
+
+Password-list generator: 
+A tool that creates a systematic password-list by manipulating strings given by the user. The lists can be saved to a text file and are designed to be used for dictionary attacks.
+
+FTP password cracker: 
+A tool that attempts to gain access to a given FTP server, by utilizing a user given dictionary. 
+
+SSH password cracker: 
+A tool that attempts to gain access to a given SSH server, by utilizing a user given dictionary. 
+
+Banner grabber: 
+A tool that grabs banner information, displayed by services such as Telnet and FTP, to give the user an easier time fingerprinting the service. 
+
+Password generator: 
+A tool that generates random passwords of specified strengths. If chosen by the user, the passwords can be saved to a text file.
+
+FTP server: 
+A tool that creates an FTP server operating on port 21, that is able to share specified files with connected clients.
+
+FTP client: 
+A tool that connects to a listening FTP server, that is able to transfer files with the host.
